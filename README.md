@@ -2,7 +2,7 @@
 
 This repository contains the complete Data Mining and Machine Learning pipeline for predicting household financial resilience in Pakistan. The project utilizes ensemble learning (Random Forest) and Game Theory-based explainability (SHAP) to uncover the socio-economic drivers of financial survival during economic shocks.
 
-## 📊 Dataset Reference & Source
+## Dataset Reference & Source
 The data used in this project is the **Pakistan Global Findex Data 2021**. 
 * **Source:** [Kaggle - Pakistan Global Findex Data 2021 by Faiza Zain](https://www.kaggle.com/datasets/faizazain/pakistan-global-findexdata2021)
 * **Original Publisher:** World Bank Global Findex Database (Demirgüç-Kunt et al., 2022).
@@ -19,7 +19,7 @@ This project strictly follows a 7-phase data mining methodology:
 6. **Evaluation:** Assessing models using Accuracy metrics and a Confusion Matrix to evaluate True/False Positives.
 7. **Interpretation:** Using **SHAP (Shapley Additive Explanations)** to open the "Black Box" of the Random Forest model and mathematically rank feature importance.
 
-## 🛠️ Key Engineered Features
+##  Key Engineered Features
 Instead of relying solely on raw data, this project engineered new knowledge:
 * **`Target_Resilient`:** A binary classification variable derived from survey question `fin24`. (1 = Can access emergency funds, 0 = Cannot).
 * **`DFI_Score` (Digital Financial Inclusion):** A custom index (0 to 3) calculated by combining whether an individual has a bank account, owns a debit card, and utilizes digital payments.
